@@ -41,5 +41,6 @@ module purge && module load JupyterLab
 nesi-add-kernel -v venv mask_rcnn Python/3.7.3-gimkl-2018b cuDNN/7.6.5.32-CUDA-10.0.130
 
 **Slurm batch job script that can be used to run the Python script version of the hoof_test task**
-	sbatch hoof_test.sl
+	
+ sbatch hoof_test.sl
 
