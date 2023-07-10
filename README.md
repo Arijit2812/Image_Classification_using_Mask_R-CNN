@@ -1,13 +1,19 @@
 # Image_Classification_using_Mask_R-CNN
+
 Local system
+
 Clone github repo https://github.com/ahmedfgad/Mask-RCNN-TF2
 
 Create virtual environment (Anaconda prompt)
+
 conda create -n mask-rcnn python=3.7.11
+
 conda activate mask-rcnn
 
 Install Mask RCNN in the virtual environment
+
 python -m pip install -r requirements.txt
+
 python setup.py install
 
 Setup video link https://www.youtube.com/watch?v=Fu_km7FXyaU&t=393s
