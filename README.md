@@ -25,68 +25,6 @@ module purge && module load JupyterLab
 
 nesi-add-kernel -v venv mask_rcnn Python/3.7.3-gimkl-2018b cuDNN/7.6.5.32-CUDA-10.0.130
 
-
-
-
-
-
-—Root folder (Mask_RCNN-TF2)
-         |
-         |-------hoof_claw_shape.ipynb
-         |-------hoof_claw_splay.ipynb
-         |-------hoof_fetlock_shape.ipynb
-         |-------hoof_heel_shape.ipynb
-         |-------hoof_toe_length.ipynb
-         |-------hoof_shape
-         |            |--------train
-         |            |		 |--------labels   
-         |            |		 |	   |--------train JSON file      
-         |            |		 |--------train_images.JPG 
-         |            |--------val
-         |            |		 |--------labels   
-         |            |		 |	   |--------validation JSON file      
-         |            |		 |--------validation_images.JPG  
-         |            |--------test
-         |            		 |--------labels   
-         |            		 |	   |--------test JSON file      
-         |            		 |--------test_images.JPG 
-         |-------hoof_splay
-         |            |--------train
-         |            |		 |--------labels   
-         |            |		 |	   |--------train JSON file      
-         |            |		 |--------train_images.JPG 
-         |            |--------val
-         |            |		 |--------labels   
-         |            |		 |	   |--------validation JSON file      
-         |            |		 |--------validation_images.JPG  
-         |            |--------test
-         |            		 |--------labels   
-         |            		 |	   |--------test JSON file      
-         |            		 |--------test_images.JPG
-         |-------hoof_side
-         |            |--------train
-         |            |		 |--------labels   
-         |            |		 |	   |--------train JSON file      
-         |            |		 |--------train_images.JPG 
-         |            |--------val
-         |            |		 |--------labels   
-         |            |		 |	   |--------validation JSON file      
-         |            |		 |--------validation_images.JPG  
-         |            |--------test
-         |            		 |--------labels   
-         |            		 |	   |--------test JSON file      
-         |            		 |--------test_images.JPG
-         |-------hoof_test.py
-         |-------hoof_test.sl
-         |-------mask_rcnn_coco.h5
-         |-------logs
-                     |--------model_1
-                     |--------model_2
-                     |--------model_3
-                     : 
-                     |--------model_n
-
-
 Slurm batch job script that can be used to run the Python script version of the hoof_test task
 	sbatch hoof_test.sl
 
