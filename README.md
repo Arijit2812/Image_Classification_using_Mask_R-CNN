@@ -44,3 +44,12 @@ nesi-add-kernel -v venv mask_rcnn Python/3.7.3-gimkl-2018b cuDNN/7.6.5.32-CUDA-1
 	
  sbatch hoof_test.sl
 
+ **Inference was run for only one image at a time**
+
+ ![image](https://github.com/Arijit2812/Image_Classification_using_Mask_R-CNN/assets/65775311/378cf827-651e-4b9c-b0b4-91f3f1356d6b)
+
+ 
+**Sample result on Shiny App**
+
+![Shiny3](https://github.com/Arijit2812/Image_Classification_using_Mask_R-CNN/assets/65775311/e755176d-11f6-4973-aaf0-1e43d3282bb6)
+
