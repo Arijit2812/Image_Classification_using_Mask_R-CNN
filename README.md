@@ -1,3 +1,5 @@
+This project aims to develop image processing techniques to automatically detect animal hooves from photos and produce a summary output in Shiny App.
+
 # Image_Classification_using_Mask_R-CNN
 
 **Local system**
